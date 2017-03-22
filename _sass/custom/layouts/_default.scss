@@ -1,0 +1,42 @@
+@import "custom/variables";
+.bio {
+    max-height: 300px;
+    background-color: $brand-primary;
+    padding: 60px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway-Light', sans-serif;
+    width: 100%;
+    .bio-inner {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .header__img {
+        display: inline-block;
+        img {
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+        }
+    }
+    .header__bio {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav.navbar-nav {
+        text-align: center;
+        float: none;
+        li {
+            display: inline-block;
+            float: none;
+        }
+    }
+    .bio {
+        .header__bio {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+}
