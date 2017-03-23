@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  {% include head.html %}
+  {% include common/head.html %}
 </head>
 
 <body>
@@ -18,6 +18,11 @@
           <p style="max-width: 400px;">
             I'm Nick, I build web with amazing tech - Angular, Angularjs, Meteor, Mongodb, Nodejs.
           </p>
+          <a href="{{ site.data.links.github }}">
+            <div class="svg">
+              {% include svg/github.svg %}
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -44,13 +49,7 @@
 
   </div>
 
-  <div id="footer">
-    <div class="container">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with help from <a href="http://jekyllbootstrap.com" target="_blank"
-          title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
-      </p>
-    </div>
-  </div>
+  {% include common/footer.html %}
 
   {% include JB/analytics %}
 

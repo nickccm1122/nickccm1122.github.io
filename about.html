@@ -6,12 +6,14 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="row">
+<div class="row about-page">
     <div class="col-md-8 col-md-offset-2">
-        <div class="panel panel-dark">
-            <div class="panel-heading">Panel heading without title</div>
+        <div class="panel panel-primary no-border">
+            <div class="text-center table">
+                <div class="h3 inline">Timeline</div>
+            </div>
             <div class="panel-body">
-                Panel content
+                {% include timeline.html %}
             </div>
         </div>
     </div>

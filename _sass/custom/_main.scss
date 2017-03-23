@@ -1,6 +1,7 @@
 @import "variables";
 @import "layouts/default";
 @import "layouts/landing-pages";
+@import "layouts/about";
 
 $panel-bg-color: #222831;
 
@@ -10,9 +11,18 @@ $panel-bg-color: #222831;
         padding: 30px;
         text-align: center;
         background: $panel-bg-color;
-        background: -webkit-linear-gradient(45deg, lighten($panel-bg-color, 10%), $panel-bg-color, lighten($panel-bg-color, 10%));
-        background: -o-linear-gradient(45deg, lighten($panel-bg-color, 10%), $panel-bg-color, lighten($panel-bg-color, 10%));
-        background: -moz-linear-gradient(45deg, lighten($panel-bg-color, 10%), $panel-bg-color, lighten($panel-bg-color, 10%));
-        background: linear-gradient(45deg, lighten($panel-bg-color, 10%), $panel-bg-color, lighten($panel-bg-color, 10%));
     }
+}
+
+//SVGs
+.svg svg{
+    display: inline-block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.no-border {
+    border: none;
 }

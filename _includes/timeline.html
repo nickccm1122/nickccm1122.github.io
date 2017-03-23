@@ -1,0 +1,28 @@
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead class="bg-primary">
+            <tr>
+                <td style="width: 120px;">Date</td>
+                <td>What happened?</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% assign events = site.data.timeline.events | sort: 'date' %} {% for event in events reversed %}
+            <tr>
+                <td style="width: 120px;">{{ event.date }}</td>
+                <td>{{ event.description }}</td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+    <div class="text-center">
+        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        <div class="svg">
+            {% include svg/winner1.svg %}
+        </div>
+        <p class="text-muted">
+            Won a race to be born {% timeago 1989-11-22 %}
+        </p>
+    </div>
+</div>
