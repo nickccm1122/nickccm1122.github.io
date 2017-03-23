@@ -5,5 +5,5 @@ gem "jekyll-sitemap"
 gem 'jekyll-watch'
 
 group :jekyll_plugins do
-  # gem 'jekyll-timeago'
+  gem 'jekyll-timeago'
 end
