@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: Landing page
-tagline: It is important!
+title: Nick Chan - Full stack web developer
+tagline: Halo!
 ---
 {% include JB/setup %}
 
