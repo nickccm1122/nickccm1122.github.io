@@ -1,14 +1,104 @@
 {
-    "events": [
-        {
-            "date": "2017-03-23",
-            "description": "Mingisnicer went live again.",
-            "type": "text"
-        },
-        {
-            "date": "2016-7-18",
-            "description": "Start to work at <a href='https://www.wedeal.hk'>Wedeal</a>.",
-            "type": "text"
-        }
-    ]
+  "events": [
+    {
+      "date": "2017-03-23",
+      "description": "Mingisnicer went live again.",
+      "type": "text"
+    },
+    {
+      "date": "2016-07-18",
+      "description": "Start to work at <a href='https://www.wedeal.hk'>Wedeal</a> as a web developer",
+      "type": "text"
+    },
+    {
+      "date": "2017-02-03",
+      "description": "Wedeal Beta Launch",
+      "type": "text"
+    },
+    {
+      "date": "2016-10-06",
+      "description": "Travel to Taiwan and start working remotely",
+      "type": "text"
+    },
+    {
+      "date": "2016-07-26",
+      "description": "Got my driving license for driving in China",
+      "type": "text"
+    },
+    {
+      "date": "2016-07-18",
+      "description": "Got my motor cycle driving license",
+      "type": "text"
+    },
+    {
+      "date": "2016-04-23",
+      "description": "Enrolled a <a href='https://www.coursera.org/specializations/full-stack'>Web Development Course</a> in Coursera ",
+      "type": "text"
+    },
+    {
+      "date": "2016-04-13",
+      "description": "Attended the first interview after coming back in Hong Kong.",
+      "type": "text"
+    },
+    {
+      "date": "2016-04-07",
+      "description": "Got a SERIOUS injury from a soccer game and stop playing soccer game for almost 8 months.",
+      "type": "text"
+    },
+    {
+      "date": "2016-02-22",
+      "description": "Back to Hong Kong after 2 years of living In Australia",
+      "type": "text"
+    },
+    {
+      "date": "2015-05-26",
+      "description": "First time driving a TRACKOR(<a href='http://www.deere.com/en_US/products/equipment/tractors/utility_tractors/6r_ut_series/6125r/6125r.page?'>John Deere 6125R</a>)",
+      "type": "text"
+    },
+    {
+      "date": "2015-05-25",
+      "description": "First time travelling Tasmania",
+      "type": "text"
+    },
+    {
+      "date": "2014-12-25",
+      "description": "Skydiving from 14000ft in Cairns",
+      "type": "text"
+    },
+    {
+      "date": "2014-02-23",
+      "description": "First time travelling Australia",
+      "type": "text"
+    },
+    {
+      "date": "2014-02-17",
+      "description": "Got my driving license",
+      "type": "text"
+    },
+    {
+      "date": "2013-07-20",
+      "description": "Complete a round trip of Taiwan by bike",
+      "type": "text"
+    },
+    {
+      "date": "2013-07-03",
+      "description": "Travel to Taiwan for a cycling trip",
+      "type": "text"
+    },
+    {
+      "date": "2013-05-11",
+      "description": "Travel to Singapore for the first time",
+      "type": "text"
+    },
+    {
+      "date": "2012-05-19",
+      "description": "Joined a consulting firm as a HRMS consultant trainee",
+      "type": "text"
+    },
+    {
+      "date": "2012-02-05",
+      "description": "Joined half marathon for the first time and finished at 2:02:15",
+      "type": "text"
+    }
+  ]
 }
