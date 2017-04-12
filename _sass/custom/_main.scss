@@ -15,7 +15,7 @@ $panel-bg-color: #222831;
 }
 
 //SVGs
-.svg svg{
+.svg svg {
     display: inline-block;
 }
 
@@ -25,4 +25,14 @@ $panel-bg-color: #222831;
 
 .no-border {
     border: none;
+}
+
+.site-post {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 16px;
+    .panel-heading {
+        h1 {
+            font-weight: 600;
+        }
+    }
 }
