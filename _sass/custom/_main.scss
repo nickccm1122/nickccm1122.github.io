@@ -2,19 +2,26 @@
 @import "layouts/default";
 @import "layouts/landing-pages";
 @import "layouts/about";
+@import "layouts/post";
 
 $panel-bg-color: #222831;
 
-.panel.panel-dark {
-    border: none;
-    .panel-heading {
-        padding: 30px;
-        text-align: center;
-        background: $panel-bg-color;
-    }
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
 }
 
-//SVGs
+// .panel.panel-dark {
+//     border: none;
+//     .panel-heading {
+//         padding: 30px;
+//         text-align: center;
+//         word-break: break-all;
+//     }
+// }
+
+/*SVGs*/
 .svg svg {
     display: inline-block;
 }
@@ -25,14 +32,4 @@ $panel-bg-color: #222831;
 
 .no-border {
     border: none;
-}
-
-.site-post {
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 16px;
-    .panel-heading {
-        h1 {
-            font-weight: 600;
-        }
-    }
 }

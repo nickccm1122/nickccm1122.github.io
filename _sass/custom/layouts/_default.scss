@@ -1,30 +1,57 @@
 @import "custom/variables";
+.panel {
+    word-wrap: break-word;
+}
 .bio {
-    max-height: 300px;
-    background-color: $brand-primary;
-    background: -webkit-linear-gradient(45deg, $brand-primary, lighten($brand-primary, 20%));
-    background: -o-linear-gradient(45deg, $brand-primary, lighten($brand-primary, 20%));
-    background: -moz-linear-gradient(45deg, $brand-primary, lighten($brand-primary, 20%));
-    background: linear-gradient(45deg, $brand-primary, lighten($brand-primary, 20%));
-    padding: 60px;
-    color: white;
+    max-height: 120x;
+    background-color: $body-bg;
+    background: -webkit-linear-gradient(45deg, $body-bg, lighten($body-bg, 20%));
+    background: linear-gradient(45deg, $body-bg, lighten($body-bg, 20%));
+    padding: 30px 60px;
+    color: $gray-base;
     font-size: 16px;
-    font-family: 'Raleway-Light', sans-serif;
     width: 100%;
     .bio-inner {
         max-width: 800px;
         margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
     }
     .header__img {
         display: inline-block;
         img {
-            height: 100px;
-            width: 100px;
+            height: 50px;
+            width: 50px;
             border-radius: 50px;
         }
     }
     .header__bio {
-        display: none;
+        padding-left: 15px;
+        line-height: 1em;
+        font-size: 16px;
+    }
+    .gitbub-link {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .gitbub-link:hover {
+        svg * {
+            // stroke: $brand-primary;
+            fill: $brand-primary;
+        }
     }
 }
 
@@ -37,11 +64,11 @@
             float: none;
         }
     }
-    .bio {
-        .header__bio {
-            display: inline-block;
-            vertical-align: middle;
-        }
-    }
+    // .bio {
+    //     .header__bio {
+    //         display: inline-block;
+    //         vertical-align: middle;
+    //     }
+    // }
 }
 

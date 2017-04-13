@@ -1,0 +1,10 @@
+@import "custom/variables";
+.site-post {
+    img {
+        max-width: 100%;
+    }
+    .panel-heading {
+        background-color: $body-bg;
+        color: $brand-primary;
+    }
+}

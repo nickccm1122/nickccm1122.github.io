@@ -2,12 +2,12 @@
   <div class="col-md-8 col-md-offset-2">
     <div class="panel panel-dark site-post">
       <div class="panel-heading">
-        <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+        <h2>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h2>
       </div>
       <div class="panel-body">
         <div class="row post-full">
           <div class="col-xs-12">
-            <div class="date">
+            <div class="date text-primary text-center">
               <span>{{ page.date | date_to_long_string }}</span>
             </div>
             <div class="content">
